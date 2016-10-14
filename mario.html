@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #pyramid {
+            line-height: 0;
+            font-size: 30px;
+        }
+
+        body {
+            font-family: "Courier New", monospace;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pyramid Slide!</h1>
+
+    <br>
+
+    <br>
+
+    <label>How high?</label>
+
+    <input id="height" type="range" min="0" max="30" oninput="drawPyramid(this.value)"/>
+    <!-- <input type="range" name="height"  min "1" max="40"/> -->
+    <br><br>
+    <!-- <button id="draw-button">Draw a pyramid</button> -->
+
+    <br><br>
+
+    <div id="pyramid"></div>
+
+    <script src="mario.js"></script>
+</body>
+</html>
